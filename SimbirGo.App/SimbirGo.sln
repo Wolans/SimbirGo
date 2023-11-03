@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimbirGo.App", "SimbirGo.App.csproj", "{06D4DE69-E9ED-4D2C-B788-32D771F30AD0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A053CAFC-28BB-4887-A36B-A8930BE91065} = {A053CAFC-28BB-4887-A36B-A8930BE91065}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimbirGo.Bll", "..\SimbirGo.Bll\SimbirGo.Bll.csproj", "{A053CAFC-28BB-4887-A36B-A8930BE91065}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B7F708EE-D1A3-4C9A-A237-DBB0AFE6BA14} = {B7F708EE-D1A3-4C9A-A237-DBB0AFE6BA14}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimbirGo.Contracts", "..\SimbirGo.Contracts\SimbirGo.Contracts.csproj", "{B7F708EE-D1A3-4C9A-A237-DBB0AFE6BA14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimbirGo.Tests", "..\SimbirGo.Tests\SimbirGo.Tests.csproj", "{0A328263-BBB0-46B8-9C42-297D2E298889}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A053CAFC-28BB-4887-A36B-A8930BE91065} = {A053CAFC-28BB-4887-A36B-A8930BE91065}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimbirGo.Migrations", "..\SimbirGo.Migrations\SimbirGo.Migrations.csproj", "{F1F510C5-0D46-410A-9318-4BA212DD6AEF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A053CAFC-28BB-4887-A36B-A8930BE91065} = {A053CAFC-28BB-4887-A36B-A8930BE91065}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06D4DE69-E9ED-4D2C-B788-32D771F30AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D4DE69-E9ED-4D2C-B788-32D771F30AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D4DE69-E9ED-4D2C-B788-32D771F30AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D4DE69-E9ED-4D2C-B788-32D771F30AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A053CAFC-28BB-4887-A36B-A8930BE91065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A053CAFC-28BB-4887-A36B-A8930BE91065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A053CAFC-28BB-4887-A36B-A8930BE91065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A053CAFC-28BB-4887-A36B-A8930BE91065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F708EE-D1A3-4C9A-A237-DBB0AFE6BA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F708EE-D1A3-4C9A-A237-DBB0AFE6BA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F708EE-D1A3-4C9A-A237-DBB0AFE6BA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F708EE-D1A3-4C9A-A237-DBB0AFE6BA14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A328263-BBB0-46B8-9C42-297D2E298889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A328263-BBB0-46B8-9C42-297D2E298889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A328263-BBB0-46B8-9C42-297D2E298889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A328263-BBB0-46B8-9C42-297D2E298889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F510C5-0D46-410A-9318-4BA212DD6AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F510C5-0D46-410A-9318-4BA212DD6AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F510C5-0D46-410A-9318-4BA212DD6AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F510C5-0D46-410A-9318-4BA212DD6AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38625A28-8CAB-429C-A565-4A7F1C6D56B9}
+	EndGlobalSection
+EndGlobal
